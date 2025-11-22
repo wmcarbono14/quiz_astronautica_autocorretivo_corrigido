@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz de Astronáutica - Autocorretivo</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .question { margin-bottom: 20px; }
+        .question h3 { margin-bottom: 10px; }
+        .question label { display: block; margin: 4px 0; }
+        #result { margin-top: 20px; font-weight: bold; font-size: 18px; }
+        button { padding: 10px 20px; font-size: 16px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Quiz: Introdução à Astronáutica (Autocorretivo)</h1>
+    <form id="quizForm">
+<div class="question">
+<h3>1. 1. Qual foi o primeiro satélite artificial lançado ao espaço?</h3>
+<label><input type="radio" name="q0" value="Explorer 1"> Explorer 1</label>
+<label><input type="radio" name="q0" value="Sputnik 1"> Sputnik 1</label>
+<label><input type="radio" name="q0" value="Vanguard 1"> Vanguard 1</label>
+<label><input type="radio" name="q0" value="Apollo 11"> Apollo 11</label>
+<label><input type="radio" name="q0" value="Luna 2"> Luna 2</label>
+</div>
+<div class="question">
+<h3>2. 2. Qual é a principal função dos foguetes na astronáutica?</h3>
+<label><input type="radio" name="q1" value="Explorar o fundo dos oceanos"> Explorar o fundo dos oceanos</label>
+<label><input type="radio" name="q1" value="Transportar cargas úteis da Terra para o espaço"> Transportar cargas úteis da Terra para o espaço</label>
+<label><input type="radio" name="q1" value="Fornecer energia elétrica para satélites"> Fornecer energia elétrica para satélites</label>
+<label><input type="radio" name="q1" value="Controlar o clima terrestre"> Controlar o clima terrestre</label>
+<label><input type="radio" name="q1" value="Detectar terremotos"> Detectar terremotos</label>
+</div>
+<div class="question">
+<h3>3. 3. O que é órbita geoestacionária?</h3>
+<label><input type="radio" name="q2" value="Órbita elíptica que passa pelos polos"> Órbita elíptica que passa pelos polos</label>
+<label><input type="radio" name="q2" value="Órbita circular sobre o equador terrestre, onde o satélite permanece fixo em relação a um ponto na superfície da Terra"> Órbita circular sobre o equador terrestre, onde o satélite permanece fixo em relação a um ponto na superfície da Terra</label>
+<label><input type="radio" name="q2" value="Órbita que leva o satélite para fora do Sistema Solar"> Órbita que leva o satélite para fora do Sistema Solar</label>
+<label><input type="radio" name="q2" value="Órbita utilizada apenas por sondas espaciais"> Órbita utilizada apenas por sondas espaciais</label>
+<label><input type="radio" name="q2" value="Órbita em forma de espiral"> Órbita em forma de espiral</label>
+</div>
+<div class="question">
+<h3>4. 4. Qual é a velocidade mínima necessária para um objeto entrar em órbita terrestre?</h3>
+<label><input type="radio" name="q3" value="7.000 km/h"> 7.000 km/h</label>
+<label><input type="radio" name="q3" value="11.000 km/h"> 11.000 km/h</label>
+<label><input type="radio" name="q3" value="28.000 km/h"> 28.000 km/h</label>
+<label><input type="radio" name="q3" value="40.000 km/h"> 40.000 km/h</label>
+<label><input type="radio" name="q3" value="50.000 km/h"> 50.000 km/h</label>
+</div>
+<div class="question">
+<h3>5. 5. Qual foi o primeiro ser humano a viajar ao espaço?</h3>
+<label><input type="radio" name="q4" value="Neil Armstrong"> Neil Armstrong</label>
+<label><input type="radio" name="q4" value="Buzz Aldrin"> Buzz Aldrin</label>
+<label><input type="radio" name="q4" value="Yuri Gagarin"> Yuri Gagarin</label>
+<label><input type="radio" name="q4" value="John Glenn"> John Glenn</label>
+<label><input type="radio" name="q4" value="Alan Shepard"> Alan Shepard</label>
+</div>
+<div class="question">
+<h3>6. 6. O que é uma sonda espacial?</h3>
+<label><input type="radio" name="q5" value="Um tipo de telescópio terrestre"> Um tipo de telescópio terrestre</label>
+<label><input type="radio" name="q5" value="Uma espaçonave não tripulada enviada ao espaço para coletar dados científicos"> Uma espaçonave não tripulada enviada ao espaço para coletar dados científicos</label>
+<label><input type="radio" name="q5" value="Um satélite de comunicação"> Um satélite de comunicação</label>
+<label><input type="radio" name="q5" value="Um foguete reutilizável"> Um foguete reutilizável</label>
+<label><input type="radio" name="q5" value="Um tipo de estação espacial"> Um tipo de estação espacial</label>
+</div>
+<div class="question">
+<h3>7. 7. Qual é a função principal do Telescópio Espacial Hubble?</h3>
+<label><input type="radio" name="q6" value="Observar o espaço em diferentes comprimentos de onda, fornecendo imagens detalhadas de corpos celestes"> Observar o espaço em diferentes comprimentos de onda, fornecendo imagens detalhadas de corpos celestes</label>
+<label><input type="radio" name="q6" value="Transmitir sinais de rádio para a Terra"> Transmitir sinais de rádio para a Terra</label>
+<label><input type="radio" name="q6" value="Monitorar o clima terrestre"> Monitorar o clima terrestre</label>
+<label><input type="radio" name="q6" value="Detectar movimentos sísmicos"> Detectar movimentos sísmicos</label>
+<label><input type="radio" name="q6" value="Fornecer energia para satélites"> Fornecer energia para satélites</label>
+</div>
+<div class="question">
+<h3>8. 8. O que são satélites artificiais?</h3>
+<label><input type="radio" name="q7" value="Estrelas que orbitam outros planetas"> Estrelas que orbitam outros planetas</label>
+<label><input type="radio" name="q7" value="Objetos construídos pelo homem e colocados em órbita ao redor da Terra ou de outros corpos celestes"> Objetos construídos pelo homem e colocados em órbita ao redor da Terra ou de outros corpos celestes</label>
+<label><input type="radio" name="q7" value="Meteoros que entram na atmosfera terrestre"> Meteoros que entram na atmosfera terrestre</label>
+<label><input type="radio" name="q7" value="Cometas que passam perto da Terra"> Cometas que passam perto da Terra</label>
+<label><input type="radio" name="q7" value="Planetas anões do Sistema Solar"> Planetas anões do Sistema Solar</label>
+</div>
+<div class="question">
+<h3>9. 9. Qual é o nome do primeiro satélite brasileiro lançado ao espaço?</h3>
+<label><input type="radio" name="q8" value="Brasilsat B1"> Brasilsat B1</label>
+<label><input type="radio" name="q8" value="SCD-1"> SCD-1</label>
+<label><input type="radio" name="q8" value="Amazonia-1"> Amazonia-1</label>
+<label><input type="radio" name="q8" value="CBERS-4"> CBERS-4</label>
+<label><input type="radio" name="q8" value="SGDC-1"> SGDC-1</label>
+</div>
+<div class="question">
+<h3>10. 10. O que é a Estação Espacial Internacional (ISS)?</h3>
+<label><input type="radio" name="q9" value="Um satélite de comunicação"> Um satélite de comunicação</label>
+<label><input type="radio" name="q9" value="Um centro de lançamento de foguetes localizado na Rússia"> Um centro de lançamento de foguetes localizado na Rússia</label>
+<label><input type="radio" name="q9" value="Um telescópio orbital"> Um telescópio orbital</label>
+<label><input type="radio" name="q9" value="Um laboratório espacial tripulado em órbita da Terra"> Um laboratório espacial tripulado em órbita da Terra</label>
+<label><input type="radio" name="q9" value="Um satélite meteorológico americano"> Um satélite meteorológico americano</label>
+</div>
+<div class="question">
+<h3>11. 11. Qual é a principal vantagem de lançar foguetes próximos ao equador?</h3>
+<label><input type="radio" name="q10" value="Menor risco de colisão com satélites"> Menor risco de colisão com satélites</label>
+<label><input type="radio" name="q10" value="Menor consumo de combustível"> Menor consumo de combustível</label>
+<label><input type="radio" name="q10" value="Redução da interferência atmosférica"> Redução da interferência atmosférica</label>
+<label><input type="radio" name="q10" value="Aproveitamento da velocidade de rotação da Terra"> Aproveitamento da velocidade de rotação da Terra</label>
+<label><input type="radio" name="q10" value="Maior proximidade da órbita geoestacionária"> Maior proximidade da órbita geoestacionária</label>
+</div>
+<div class="question">
+<h3>12. 12. Qual o nome da missão que levou o homem à Lua pela primeira vez?</h3>
+<label><input type="radio" name="q11" value="Soyuz 1"> Soyuz 1</label>
+<label><input type="radio" name="q11" value="STS-1"> STS-1</label>
+<label><input type="radio" name="q11" value="Apollo 11"> Apollo 11</label>
+<label><input type="radio" name="q11" value="Saturn V"> Saturn V</label>
+<label><input type="radio" name="q11" value="Artemis I"> Artemis I</label>
+</div>
+<div class="question">
+<h3>13. 13. Em que ano o homem pisou na Lua pela primeira vez?</h3>
+<label><input type="radio" name="q12" value="1965"> 1965</label>
+<label><input type="radio" name="q12" value="1969"> 1969</label>
+<label><input type="radio" name="q12" value="1972"> 1972</label>
+<label><input type="radio" name="q12" value="1957"> 1957</label>
+<label><input type="radio" name="q12" value="1981"> 1981</label>
+</div>
+<div class="question">
+<h3>14. 14. O que é o foguete Saturn V?</h3>
+<label><input type="radio" name="q13" value="Um tipo de satélite de comunicação"> Um tipo de satélite de comunicação</label>
+<label><input type="radio" name="q13" value="Um tipo de telescópio usado na Lua"> Um tipo de telescópio usado na Lua</label>
+<label><input type="radio" name="q13" value="O foguete que levou astronautas à Lua nas missões Apollo"> O foguete que levou astronautas à Lua nas missões Apollo</label>
+<label><input type="radio" name="q13" value="Um módulo lunar automatizado"> Um módulo lunar automatizado</label>
+<label><input type="radio" name="q13" value="Uma sonda enviada para Marte"> Uma sonda enviada para Marte</label>
+</div>
+<div class="question">
+<h3>15. 15. Qual é a função de um satélite meteorológico?</h3>
+<label><input type="radio" name="q14" value="Medir a rotação da Terra"> Medir a rotação da Terra</label>
+<label><input type="radio" name="q14" value="Monitorar a atmosfera e prever o clima"> Monitorar a atmosfera e prever o clima</label>
+<label><input type="radio" name="q14" value="Medir a pressão do solo em campos agrícolas"> Medir a pressão do solo em campos agrícolas</label>
+<label><input type="radio" name="q14" value="Comunicar-se com sondas espaciais"> Comunicar-se com sondas espaciais</label>
+<label><input type="radio" name="q14" value="Estudar a superfície da Lua"> Estudar a superfície da Lua</label>
+</div>
+<div class="question">
+<h3>16. 16. O que é um foguete de múltiplos estágios?</h3>
+<label><input type="radio" name="q15" value="Um foguete com diferentes trajetórias"> Um foguete com diferentes trajetórias</label>
+<label><input type="radio" name="q15" value="Um foguete usado apenas para lançamentos lunares"> Um foguete usado apenas para lançamentos lunares</label>
+<label><input type="radio" name="q15" value="Um foguete com partes que são descartadas em sequência"> Um foguete com partes que são descartadas em sequência</label>
+<label><input type="radio" name="q15" value="Um foguete que só pode ser usado uma vez"> Um foguete que só pode ser usado uma vez</label>
+<label><input type="radio" name="q15" value="Um tipo de foguete experimental sem propulsão"> Um tipo de foguete experimental sem propulsão</label>
+</div>
+<div class="question">
+<h3>17. 17. Qual é o nome da primeira mulher a viajar para o espaço?</h3>
+<label><input type="radio" name="q16" value="Valentina Tereshkova"> Valentina Tereshkova</label>
+<label><input type="radio" name="q16" value="Sally Ride"> Sally Ride</label>
+<label><input type="radio" name="q16" value="Mae Jemison"> Mae Jemison</label>
+<label><input type="radio" name="q16" value="Peggy Whitson"> Peggy Whitson</label>
+<label><input type="radio" name="q16" value="Christina Koch"> Christina Koch</label>
+</div>
+<div class="question">
+<h3>18. 18. O que são os satélites CBERS?</h3>
+<label><input type="radio" name="q17" value="Satélites de internet rural"> Satélites de internet rural</label>
+<label><input type="radio" name="q17" value="Satélites de monitoramento climático global"> Satélites de monitoramento climático global</label>
+<label><input type="radio" name="q17" value="Satélites de observação terrestre desenvolvidos em parceria entre Brasil e China"> Satélites de observação terrestre desenvolvidos em parceria entre Brasil e China</label>
+<label><input type="radio" name="q17" value="Satélites de defesa militar brasileira"> Satélites de defesa militar brasileira</label>
+<label><input type="radio" name="q17" value="Satélites para estudos astronômicos extragalácticos"> Satélites para estudos astronômicos extragalácticos</label>
+</div>
+<div class="question">
+<h3>19. 19. Qual é o principal centro de lançamento de foguetes no Brasil?</h3>
+<label><input type="radio" name="q18" value="INPE (Instituto Nacional de Pesquisas Espaciais)"> INPE (Instituto Nacional de Pesquisas Espaciais)</label>
+<label><input type="radio" name="q18" value="ITA (Instituto Tecnológico de Aeronáutica)"> ITA (Instituto Tecnológico de Aeronáutica)</label>
+<label><input type="radio" name="q18" value="CLA (Centro de Lançamento de Alcântara)"> CLA (Centro de Lançamento de Alcântara)</label>
+<label><input type="radio" name="q18" value="EMBRAER"> EMBRAER</label>
+<label><input type="radio" name="q18" value="AEB (Agência Espacial Brasileira)"> AEB (Agência Espacial Brasileira)</label>
+</div>
+<div class="question">
+<h3>20. 20. A missão Artemis, liderada pela NASA, tem como objetivo principal:</h3>
+<label><input type="radio" name="q19" value="Lançar um novo telescópio orbital"> Lançar um novo telescópio orbital</label>
+<label><input type="radio" name="q19" value="Construir uma estação espacial em Marte"> Construir uma estação espacial em Marte</label>
+<label><input type="radio" name="q19" value="Levar a primeira mulher e o próximo homem à Lua"> Levar a primeira mulher e o próximo homem à Lua</label>
+<label><input type="radio" name="q19" value="Colonizar Vênus"> Colonizar Vênus</label>
+<label><input type="radio" name="q19" value="Monitorar o Sol com sondas tripuladas"> Monitorar o Sol com sondas tripuladas</label>
+</div>
+
+    <button type="button" onclick="checkAnswers()">Verificar Respostas</button>
+    </form>
+    <div id="result"></div>
+    <script>
+        const correctAnswers = ['Sputnik 1', 'Transportar cargas úteis da Terra para o espaço', 'Órbita circular sobre o equador terrestre, onde o satélite permanece fixo em relação a um ponto na superfície da Terra', '28.000 km/h', 'Yuri Gagarin', 'Uma espaçonave não tripulada enviada ao espaço para coletar dados científicos', 'Observar o espaço em diferentes comprimentos de onda, fornecendo imagens detalhadas de corpos celestes', 'Objetos construídos pelo homem e colocados em órbita ao redor da Terra ou de outros corpos celestes', 'SCD-1', 'Um laboratório espacial tripulado em órbita da Terra', 'Aproveitamento da velocidade de rotação da Terra', 'Apollo 11', '1969', 'O foguete que levou astronautas à Lua nas missões Apollo', 'Monitorar a atmosfera e prever o clima', 'Um foguete com partes que são descartadas em sequência', 'Valentina Tereshkova', 'Satélites de observação terrestre desenvolvidos em parceria entre Brasil e China', 'CLA (Centro de Lançamento de Alcântara)', 'Levar a primeira mulher e o próximo homem à Lua'];
+
+        function checkAnswers() {
+            let score = 0;
+            for (let i = 0; i < correctAnswers.length; i++) {
+                const radios = document.getElementsByName("q" + i);
+                for (let radio of radios) {
+                    if (radio.checked && radio.value === correctAnswers[i]) {
+                        score++;
+                    }
+                }
+            }
+            const total = correctAnswers.length;
+            const percent = ((score / total) * 100).toFixed(1);
+            document.getElementById("result").innerText =
+                "Você acertou " + score + " de " + total + " questões. Aproveitamento: " + percent + "%";
+        }
+    </script>
+</body>
+</html>
